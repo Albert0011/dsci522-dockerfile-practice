@@ -29,7 +29,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: Albert0011/dsci522-dockerfile-practice
+          images: achalim/dsci522-dockerfile-practice
           tags: |
             type=raw, value={{sha}},enable=${{github.ref_type != 'tag' }}
             type=raw, value=latest
